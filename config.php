@@ -8,7 +8,7 @@ define('POCET_CHYB', 31);
 define('DS', '/');
 
 
-define('MAX_ALLOW_FILE', 3900);
+define('MAX_ALLOW_FILE', 5000);
 
 
 

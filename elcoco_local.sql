@@ -27,7 +27,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 CREATE TABLE IF NOT EXISTS `artikl` (
   `id` int(10) unsigned NOT NULL auto_increment,
-  `artikl` varchar(20) default NULL,
+  `artikl` varchar(200) default NULL,
   `cil_zmetky` double default NULL,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `articl_articl` (`artikl`)
